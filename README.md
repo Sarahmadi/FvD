@@ -39,17 +39,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.byfloor.nl
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Homepage van ByFloor
   <img src="readme-images/site1.jpg" width="375px" alt="homepage">
   <img src="readme-images/site2.jpg" width="375px" alt="homepage">
   <img src="readme-images/site3.jpg" width="375px" alt="homepage">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Pagina van de sieraden en pagina van de sale
   <img src="readme-images/site4.jpg" width="375px" alt="sieraden">
   <img src="readme-images/site5.jpg" width="375px" alt="sieraden">
-  <img src="readme-images/site6.jpg" width="375px" alt="sieraden">
-  <img src="readme-images/site7.jpg" width="375px" alt="sale">
+  <img src="readme-images/site6.jpg" width="375px" alt="sale">
 
 </details>
 
