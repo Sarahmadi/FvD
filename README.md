@@ -61,6 +61,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  -Als eerste viel me op dat de voiceover echt direct begon met praten. Hij was geen moment stil en ik kreeg het geluid niet direct zachter, dus moest ik hem eerst uitzetten en toen pas kon ik het geluid zachter doen.
+  -De voiceover begint vanzelf voor te lezen wat er op de website te zien is.
+  Hij begon linksboven met de banner 'Gratis bezorgd vanaf 50 euro, voor 16u besteld zelfde dag verzonden, elke week nieuwe items, etc. Dit lijkt mij erg fijn om te weten, want het is toch wel belangrijke informatie die zou kunnen helpen om een beslissing te maken of je op deze site iets zou willen bestellen. Het enige vervelende hieraan is, dat als je op een nieuw kopje klikt, bijvoorbeeld als je van de 'kleding' naar de 'sieraden' pagina gaat, hij al die informatie opnieuw gaat voorlezen, terwijl je dit dus al weet.
+  -Ik klikte op de sieraden pagina en wou kijken wat er gebeurde als ik zou spelen met de filters. Ik klikte op de 20% korting filter en er was nog maar 1 item in beeld. De voiceover gaf dit niet duidelijk aan.
 
 </details>
 
