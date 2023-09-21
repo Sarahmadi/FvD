@@ -105,10 +105,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   samen met je groepje opstellen
 
   | Sarah          | Esra               | Magdalena    | Liam             | Jornt
-  | ---            | ---                | ---          | ---              | ---
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              | 
+  | -Icoontjes     | ---                | ---          | ---      
+  | -Klikbaar      | en dit             | en ik dit    | en dan ik dat    |
+  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
+  |                | ...                | ...          | ...              | 
 
 
   ### Verslag van meeting
