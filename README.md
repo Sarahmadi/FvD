@@ -189,7 +189,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  -@fontface snap ik even niet, verschil tussen flex en grid (wanneer is wat beter)
  Jornt:
  -Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
- -Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen.
+ -Waarom kan ik de 'font-weight' van m'n nav niet aanpassen?
+ -Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
  Liam:
  Ik:
  -Header images overhoop gehaald hoe fix ik het weer

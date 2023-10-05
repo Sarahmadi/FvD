@@ -26,7 +26,7 @@ body {
 }
 
 header nav img {
-	width: 1em;
+	width:1em;
 }
 
 /* menu */
@@ -80,7 +80,6 @@ header nav:last-of-type > section:last-of-type {
 	position: fixed;
 	display: flex;
 	justify-content: right;
-	margin-bottom: 1.5em;
 }
 
 main > section:first-of-type img {
