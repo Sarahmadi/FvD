@@ -5,29 +5,96 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
-
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
 	--color-text:#111;
-	--color-background:#eee;
+	--color-background:#ffff;
+	--color-details: #8ca89c;
+}
+
+@font-face {
+	font-family: Arial, Helvetica, sans-serif;
+	src: url(https://fonts.gstatic.com/s/hind/v16/5aU19_a8oxmIfJpbERySjRhc9V0.woff2) format('woff2');
 }
 
 body {
-	background-color: white;
-  }
+	background-color: var(--color-background);
+	font-family: Arial, Helvetica, sans-serif;
+}
 
+header nav img {
+	width: 1em;
+}
 
+/* menu */
+header nav:last-of-type {
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	background-color: rgba(0, 0, 0, 0.4);
+	left: -110em;
+	transition: .5s;
+}
+
+header nav:last-of-type > section:first-of-type {
+	width: 60vw;
+	height: 100vh;
+	padding: 1em;
+	background-color: var(--color-background);
+}
+
+/* menu binnenkant */
+header nav:last-of-type ul {
+	list-style: none;
+}
+
+header nav:last-of-type a {
+	display: block;
+	padding: .5em;
+	color: inherit;
+	text-decoration: none;
+}
+
+header nav:last-of-type.zichtbaar {
+	left: 0;
+	transition: .5s;
+}
+
+body.zichtbaar {
+	overflow-y: hidden;
+}
+
+/* talen */
+header nav:last-of-type section section {
+    display: flex;
+    justify-content: right;
+    margin-bottom: 1.5em;
+}
+
+/* menu sluiten */
+header nav:last-of-type > section:last-of-type {
+	position: fixed;
+	display: flex;
+	justify-content: right;
+	margin-bottom: 1.5em;
+}
+
+main > section:first-of-type img {
+	width: 100%;
+}
+
+main > section:nth-of-type(2) p {
+	font-size: 1.5em;
+	display: flex;
+    justify-content: center;
+}
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
 /* jouw code */
-

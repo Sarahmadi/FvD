@@ -145,12 +145,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - punt 1: @font face gebruiken
+  - punt 2: var gebruiken voor kleuren enzo
+  - punt 3: niet schreeuwen (uppercase in css gebruiken)
 
 </details>
 
@@ -184,11 +181,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+ Esra:
+ -Ik struggle op dit moment met mijn iconen rechts krijgen in het menu.
+ Ik wil dat het logo rechts blijft, en mijn logo links.
+ -Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
+ Karenza:
+ -@fontface snap ik even niet, verschil tussen flex en grid (wanneer is wat beter)
+ Jornt:
+ -Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
+ -Ook wil ik weten waarom ik de 'font-weight' van m'n nav niet kan aanpassen.
+ Liam:
+ Ik:
+ -Header images overhoop gehaald hoe fix ik het weer
+ -Hoe maak ik een button van een img en een woord samen
+ -Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
 
 
   ### Verslag van meeting
