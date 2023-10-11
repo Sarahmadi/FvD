@@ -16,8 +16,8 @@
 }
 
 @font-face {
-	font-family: Arial, Helvetica, sans-serif;
-	src: url(https://fonts.gstatic.com/s/hind/v16/5aU19_a8oxmIfJpbERySjRhc9V0.woff2) format('woff2');
+	font-family: 'hind, sans-serif';
+	src: url(https://fonts.gstatic.com/s/hind/v16/5aU69_a8oxmIdGl4BDGwgDI.woff2) format('woff2');
 }
 
 body {
@@ -25,8 +25,38 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
-header nav img {
+header nav section:last-of-type img:first-of-type {
 	width:1em;
+}
+
+header nav section:nth-of-type(1) img:nth-of-type(2) {
+	width:1em;
+}
+
+header nav section:nth-of-type(1) img:nth-of-type(3) {
+	width:1em;
+}
+
+header nav section:nth-of-type(1) img:nth-of-type(4) {
+	width:1em;
+}
+
+header nav:first-of-type section:nth-of-type(1) {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.5em;
+}
+
+header section:last-of-type img {
+	width: 8em;
+	padding-bottom: 1em;
+	display: flex;
+	justify-content: center;
+}
+
+/* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
+hr {
+	border-top: solid #f0f0f0 0.1em;
 }
 
 /* menu */
@@ -72,7 +102,6 @@ body.zichtbaar {
 header nav:last-of-type section section {
     display: flex;
     justify-content: right;
-    margin-bottom: 1.5em;
 }
 
 /* menu sluiten */
@@ -84,12 +113,25 @@ header nav:last-of-type > section:last-of-type {
 
 main > section:first-of-type img {
 	width: 100%;
+	padding-bottom: 1em;
 }
 
 main > section:nth-of-type(2) p {
 	font-size: 1.5em;
 	display: flex;
     justify-content: center;
+	text-transform: uppercase;
+}
+
+main > section:nth-of-type(3) p {
+	font-size: 1em;
+	display: flex;
+    justify-content: center;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-family: hind, sans-serif;
 }
 
 /****************/
