@@ -114,10 +114,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+- Sections goed indelen
+- Icoontjes apart van elkaar downloaden
+- Onderin geen nav
 
 </details>
 
@@ -137,12 +136,21 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
-
+ Esra:
+ -Ik struggle op dit moment met mijn iconen rechts krijgen in het menu.
+ Ik wil dat het logo rechts blijft, en mijn logo links.
+ -Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
+ Karenza:
+ -@fontface snap ik even niet, verschil tussen flex en grid (wanneer is wat beter)
+ Jornt:
+ -Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
+ -Waarom kan ik de 'font-weight' van m'n nav niet aanpassen?
+ -Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
+ Liam:
+ Ik:
+ -Header images overhoop gehaald hoe fix ik het weer
+ -Hoe maak ik een button van een img en een woord samen
+ -Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
 
   ### Verslag van meeting
   - punt 1: @font face gebruiken
@@ -181,22 +189,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
- Esra:
- -Ik struggle op dit moment met mijn iconen rechts krijgen in het menu.
- Ik wil dat het logo rechts blijft, en mijn logo links.
- -Mijn afbeelding in de eerste section is heel condensed terwijl ik wel de juiste afmetingen en afbeelding heb gebruikt.
- Karenza:
- -@fontface snap ik even niet, verschil tussen flex en grid (wanneer is wat beter)
- Jornt:
- -Ik wil graag weten hoezo mijn 2e section niet het scherm volledig vult.
- -Waarom kan ik de 'font-weight' van m'n nav niet aanpassen?
- -Bepaalde afbeelding laadt niet bij testen telefoon, hoe komt dat?
- Liam:
- Ik:
- -Header images overhoop gehaald hoe fix ik het weer
- -Hoe maak ik een button van een img en een woord samen
- -Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
-
+Jornt:
+-Waarom blijft niet mijn gehele NAV bar plakken?
+-Hoe krijg ik m’n tekst in dit sectie 4 responsive?
+-Er zijn maar 3 fonts beschikbaar om te downloaden, lukt niet om font-weight mee te geven.
+Karenza:
+-Ik heb ook vraag over responsive text / footer
+-En een vraag over “overlappen” van fotos/backgrounds
+-Vraag over alt attributen en hoe specifiek de uitleg van de foto moet zijn.
+-En eigenlijk gwn meer uitleg over responsiveness
+Esra:
+Liam:
+-Hoe krijg ik 3 verschillende menu opties
+-Hoe maak ik slideshow met animaties
+-Hoe zorg ik ervoor dat ik verschillende menus kan sluiten met 1 knop
+Ik:
+-Ik kan de fonts niet vinden omdat ze geen duidelijke namen hebben
+-Hoe maak ik een rondje boven het winkelmandje
+-Hoe krijg ik een link en een p die onder elkaar staan, dichter op elkaar
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen

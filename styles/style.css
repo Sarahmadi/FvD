@@ -13,18 +13,22 @@
 	--color-text:#111;
 	--color-background:#ffff;
 	--color-details: #8ca89c;
+	--color-headings: #191919;
+	--color-paragraph: #777777;
+	--color-footerli: #888888;
+	--color-footerbackground: #F7F8FA;
 }
 
 @font-face {
 	font-family: 'hind, sans-serif';
-	src: url(https://fonts.gstatic.com/s/hind/v16/5aU69_a8oxmIdGl4BDGwgDI.woff2) format('woff2');
+	src: url('hind.ttf') format('ttf');
 }
 
 body {
 	background-color: var(--color-background);
-	font-family: Arial, Helvetica, sans-serif;
 }
 
+/* header buttons */
 header nav section:last-of-type img:first-of-type {
 	width:1em;
 }
@@ -52,11 +56,6 @@ header section:last-of-type img {
 	padding-bottom: 1em;
 	display: flex;
 	justify-content: center;
-}
-
-/* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
-hr {
-	border-top: solid #f0f0f0 0.1em;
 }
 
 /* menu */
@@ -130,8 +129,135 @@ main > section:nth-of-type(3) p {
 	text-transform: uppercase;
 }
 
+/* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
+hr {
+	border-top: solid #f0f0f0 0.1em;
+}
+
 h1 {
 	font-family: hind, sans-serif;
+	font-size: 29px;
+	color: #191919;
+}
+
+main > section:nth-of-type(4) p {
+	color: var(--color-paragraph);
+	font-family: hind, sans-serif;
+	font-size: 14px;
+}
+
+main > section:nth-of-type(5) p {
+	color: var(--color-paragraph);
+	font-family: hind, sans-serif;
+	font-size: 14px;
+}
+
+main > section:nth-of-type(6) p {
+	color: var(--color-paragraph);
+	font-family: hind, sans-serif;
+	font-size: 14px;
+}
+
+/* footer lijst */
+footer > section:first-of-type summary {
+	font-size: 16px;
+	text-transform: uppercase;
+	font-family: hind, sans-serif;
+    color: var(--color-heading);
+	padding-bottom: 12px;
+    padding-right: 20px;
+	padding-left: 25px;
+    border-bottom: 1px solid #e9e7e7;
+	line-height: 26px;
+    font-weight: 500;
+	background-color: var(--color-footerbackground);
+}
+
+/* footer lijst binnenkant */
+details > summary {
+	list-style: none;
+}
+
+details > summary {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+details > summary::after {
+	content:"+";
+	display: grid;
+	place-items: center;
+	width: 1em;
+	line-height: 4em;
+	transition: .5s;
+}
+
+details > summary:hover {
+	cursor: pointer;
+}
+
+details[open] > summary::after {
+	rotate: 180deg;
+	content:"-";
+}
+
+footer > section:first-of-type li {
+	font-size: 14px;
+	font-family: hind;
+	color: var(--color-footerli);
+	background-color: var(--color-footerbackground);
+}
+
+/* waarom is deze nodig ? */
+details summary::-webkit-details-marker {
+	display:none;
+}
+
+/* social media iconen */
+footer > section:nth-of-type(2) img {
+	width: 1.2em;
+	padding-top: 2em;
+	padding-bottom: 5em;
+}
+
+/* rechten */
+footer > section:nth-of-type(3) img {
+	width: 0.8em;
+	margin-left: 30px;
+}
+
+footer > section:nth-of-type(3) p {
+	display: inline-block;
+	color: var(--color-paragraph);
+	font-size: 14px;
+	padding-bottom: 1em;
+}
+
+/* betaalmogelijkheden */
+footer > section:nth-of-type(4) img {
+	width: 18em;
+	padding-bottom: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* back to top */
+footer > section:last-of-type img {
+	width: 1.2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer > section:last-of-type p {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	color: var(--color-heading);
+	padding-bottom: 2em;
 }
 
 /****************/
