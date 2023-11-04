@@ -10,13 +10,20 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#ffff;
-	--color-details: #8ca89c;
-	--color-headings: #191919;
-	--color-paragraph: #777777;
-	--color-footerli: #888888;
-	--color-footerbackground: #F7F8FA;
+	  --color-text:#111;
+      --color-background:#ffff;
+      --color-details: #8ca89c;
+      --color-headings: #191919;
+      --color-paragraph: #777777;
+      --color-footerli: #888888;
+      --color-footerbackground: #F7F8FA;
+      --color-filterbutton: #498068;
+}
+    /* halloween thema */
+.alt-theme {
+      --color-primary: orange;
+      --color-theme: black;
+      --color-txt: white;
 }
 
 @font-face {
@@ -34,96 +41,27 @@
 body {
 	background-color: var(--color-background);
 	font-family: 'hind', sans-serif;
-}
-
-/* header buttons */
-header nav section:last-of-type img:first-of-type {
-	width:1em;
-}
-
-header nav section:nth-of-type(1) img:nth-of-type(2) {
-	width:1em;
-}
-
-header nav section:nth-of-type(1) img:nth-of-type(3) {
-	width:1em;
-}
-
-header nav section:nth-of-type(1) img:nth-of-type(4) {
-	width:1em;
-}
-
-header nav:first-of-type section:nth-of-type(1) {
-	display: flex;
-	justify-content: space-around;
-	padding-top: 0.5em;
+	background-color: var(--color-theme);
 }
 
 header section:last-of-type img {
-	width: 7.5em;
-	padding-bottom: 2em;
+	width: 7.7em;
+	padding-bottom: 1em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-/* menu */
-header nav:last-of-type {
-	position: fixed;
-	top: 0;
-	left: 0;
-	display: flex;
-	background-color: rgba(0, 0, 0, 0.4);
-	left: -110em;
-	transition: .5s;
-}
-
-header nav:last-of-type > section:first-of-type {
-	width: 60vw;
-	height: 100vh;
-	padding: 1em;
-	background-color: var(--color-background);
-}
-
-/* menu binnenkant */
-header nav:last-of-type ul {
-	list-style: none;
-}
-
-header nav:last-of-type a {
-	display: block;
-	padding: .5em;
-	color: inherit;
-	text-decoration: none;
-}
-
-header nav:last-of-type.zichtbaar {
-	left: 0;
-	transition: .5s;
-}
-
-body.zichtbaar {
-	overflow-y: hidden;
-}
-
-/* talen */
-header nav:last-of-type section section {
-    display: flex;
-    justify-content: right;
-}
-
-/* menu sluiten */
-header nav:last-of-type > section:last-of-type {
-	position: fixed;
-	display: flex;
-	justify-content: right;
+main > section:first-of-type img:first-of-type {
+	padding-top: 1em;
 }
 
 main > section:first-of-type img {
 	width: 100%;
-	padding-bottom: 1em;
+	padding-bottom: 0.8em;
 }
 
+/* instagram link */
 main > section:nth-of-type(2) p {
 	font-size: 1.5em;
 	display: flex;
@@ -135,6 +73,7 @@ main > section:nth-of-type(2) p {
 	margin: 0em;
 }
 
+/* instagram paragraph */
 main > section:nth-of-type(3) p {
 	font-size: 1em;
 	display: flex;
@@ -144,6 +83,8 @@ main > section:nth-of-type(3) p {
 	font-weight: 500;
 	font-size: 16px;
 	margin: 0em;
+	margin-bottom: 2em;
+	color: var(--color-txt)
 }
 
 /* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
@@ -152,139 +93,59 @@ hr {
 	margin: 0em;
 }
 
+/* headings onderste teksten */
 h1 {
 	font-family: hind, sans-serif;
 	font-size: 32px;
 	color: #191919;
 	font-weight: 500;
+	margin-bottom: 0em;
+	color: var(--color-primary);
 }
 
+h2 {
+	font-family: hind, sans-serif;
+	font-size: 26px;
+	color: #191919;
+	font-weight: 600;
+	margin-bottom: 0em;
+	color: var(--color-primary);
+}
+
+h3 {
+	font-family: hind, sans-serif;
+	font-size: 26px;
+	color: #191919;
+	font-weight: 600;
+	color: var(--color-primary);
+}
+
+/* paragraphs onderste teksten */
 main > section:nth-of-type(4) p {
 	color: var(--color-paragraph);
 	font-family: hind, sans-serif;
 	font-size: 14px;
+	margin-bottom: 3em;
+	color: var(--color-txt);
 }
 
 main > section:nth-of-type(5) p {
 	color: var(--color-paragraph);
 	font-family: hind, sans-serif;
 	font-size: 14px;
+	color: var(--color-txt);
 }
 
 main > section:nth-of-type(6) p {
 	color: var(--color-paragraph);
 	font-family: hind, sans-serif;
 	font-size: 14px;
+	color: var(--color-txt);
 }
 
-/* footer lijst */
-footer > section:first-of-type summary {
-	font-size: 16px;
-	text-transform: uppercase;
-	font-family: hind, sans-serif;
-    color: var(--color-heading);
-	padding-bottom: 12px;
-    padding-right: 20px;
-	padding-left: 25px;
-    border-bottom: 1px solid #e9e7e7;
-	line-height: 2px;
-    font-weight: 500;
-	background-color: var(--color-footerbackground);
-}
-
-/* footer lijst binnenkant */
-details > summary {
-	list-style: none;
-}
-
-details > summary {
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-}
-
-details > summary::after {
-	content:"+";
-	display: grid;
-	place-items: center;
-	width: 1em;
-	line-height: 4em;
-	transition: .5s;
-	color: var(--color-paragraph);
-}
-
-details > summary:hover {
-	cursor: pointer;
-}
-
-details[open] > summary::after {
-	rotate: 180deg;
-	content:"-";
-}
-
-footer > section:first-of-type li {
-	font-size: 14px;
-	font-family: hind;
-	color: var(--color-footerli);
-	background-color: var(--color-footerbackground);
-}
-
-/* waarom is deze nodig ? */
-details summary::-webkit-details-marker {
-	display:none;
-}
-
-/* social media iconen */
-footer > section:nth-of-type(2) img {
-	width: 1.2em;
-	padding-top: 2em;
-	padding-bottom: 4em;
-	margin-left: 1em;
-}
-
-/* rechten */
-footer > section:nth-of-type(3) img {
-	width: 0.8em;
-	margin-left: 30px;
-}
-
-footer > section:nth-of-type(3) p {
-	display: inline-block;
-	color: var(--color-paragraph);
-	font-size: 14px;
-	padding-bottom: 0.5em;
-}
-
-/* betaalmogelijkheden */
-footer > section:nth-of-type(4) img {
-	width: 18.5em;
-	padding-bottom: 1.8em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-/* back to top */
-footer > section:last-of-type img {
-	width: 1.2em;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-footer > section:last-of-type p {
+buttonthema {
+	color: var(--color-primary);
+	font-size: 7px;
 	display: flex;
 	justify-content: center;
-	text-transform: uppercase;
-	font-size: 12px;
-	color: var(--color-heading);
-	padding-bottom: 2.2em;
-	margin: 0.4em;
-	font-weight: 500;
 }
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */

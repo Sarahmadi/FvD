@@ -1,6 +1,7 @@
 // JavaScript Document
 console.log("hi");
 
+/* Hamburger Menu */
 const body = document.querySelector("body");
 const hamburgerMenu = document.querySelector("header nav:last-of-type");
 const knopOpen = document.querySelector("header nav:first-of-type img:first-of-type");
@@ -18,3 +19,14 @@ function sluitMenu() {
 
 knopOpen.addEventListener('click', openMenu);
 knopDicht.addEventListener('click', sluitMenu);
+
+
+
+
+ /* Thema switch */
+const changeThemeButton = document.querySelector("buttonthema");
+const root = document.documentElement;
+
+changeThemeButton.addEventListener("click", function() {
+    root.classList.toggle("alt-theme");
+});
