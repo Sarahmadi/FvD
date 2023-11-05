@@ -21,8 +21,8 @@
 
       /* kerst thema */
       .alt-theme {
-      --color-primary: green;
-      --color-theme: red;
+      --color-primary: #00CD00;
+      --color-theme: #FF0000;
       --color-txt: white;
 }
 
@@ -153,7 +153,9 @@ main > section:nth-of-type(6) p {
 	color: var(--color-txt);
 }
 
+
 /* kerst thema button */
+/* gemaakt met hulp van donna */
 buttonthema {
 	color: var(--color-primary);
 	font-size: 5px;
@@ -166,16 +168,6 @@ buttonthema {
     background-color: var(--color-primary);
 }
 
-/* kerst thema footer */
-.alt-theme footer section:nth-of-type(2){
-    background-color: var(--color-theme);
-}
-
-/* kerst thema footer rechten p */
-.alt-theme footer section:nth-of-type(3) p {
-    color: var(--color-txt);
-}
-
 /* kerst thema menu binnenkant */
 .alt-theme header nav:nth-of-type(2) section:nth-of-type(1){
     background-color: var(--color-theme);
@@ -186,9 +178,23 @@ buttonthema {
     background-color: var(--color-theme);
 }
 
+.alt-theme header p:last-of-type {
+    color: var(--color-primary);
+}
 
-/* dark mode button */
+/* kerst thema footer */
+.alt-theme footer section:nth-of-type(2){
+    background-color: var(--color-theme);
+}
+
+/* kerst thema footer rechten p */
+.alt-theme footer section:nth-of-type(3) p {
+    color: var(--color-txt);
+}
+
+
 /* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
+/* dark mode button */
 .dark-mode {
     background-color: black;
   }
@@ -210,11 +216,6 @@ buttonthema {
     background-color: var(--color-header);
 }
 
-/* dark mode footer */
-.dark-mode footer section:nth-of-type(2){
-    background-color: var(--color-theme);
-}
-
 /* dark mode menu binnenkant */
 .dark-mode header nav:nth-of-type(2) section:nth-of-type(1){
     background-color: var(--color-theme);
@@ -222,5 +223,14 @@ buttonthema {
 }
 
 .dark-mode header button {
+    background-color: var(--color-theme);
+}
+
+.dark-mode header p:last-of-type {
+    color: var(--color-txt);
+}
+
+/* dark mode footer */
+.dark-mode footer section:nth-of-type(2){
     background-color: var(--color-theme);
 }

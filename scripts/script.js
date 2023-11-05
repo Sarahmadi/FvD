@@ -21,15 +21,14 @@ knopOpen.addEventListener('click', openMenu);
 knopDicht.addEventListener('click', sluitMenu);
 
 
-
  /* kerst thema switch */
+ /* gemaakt met hulp van donna */
 const changeThemeButton = document.querySelector("buttonthema");
 const root = document.documentElement;
 
 changeThemeButton.addEventListener("click", function() {
     root.classList.toggle("alt-theme");
 });
-
 
 
 /* dark mode switch */
