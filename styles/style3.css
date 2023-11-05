@@ -116,12 +116,6 @@
     padding-left: 2.2em;
     padding-top: 1em;
   }
-
-  /* menu binnenkant: talen */
-  header nav:last-of-type section section {
-      display: flex;
-      justify-content: right;
-  }
   
   /* menu sluiten */
   header nav:last-of-type > section:last-of-type {

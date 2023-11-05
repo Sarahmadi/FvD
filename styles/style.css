@@ -52,6 +52,12 @@ body {
     background-color: var(--color-theme);
 }
 
+  /* talen */
+  header nav:last-of-type section section {
+	display: flex;
+	justify-content: right;
+}
+
 /* logo byfloor */
 header section:last-of-type img {
 	width: 7.7em;
@@ -233,4 +239,11 @@ buttonthema {
 /* dark mode footer */
 .dark-mode footer section:nth-of-type(2){
     background-color: var(--color-theme);
+}
+
+/* bron: https://www.youtube.com/watch?v=ivzPXht4C5E */
+video {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }

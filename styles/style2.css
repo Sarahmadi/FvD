@@ -230,3 +230,40 @@ main > section:nth-of-type(8) p {
     color: var(--color-paragraph);
     margin-bottom: 6em;
 }
+
+
+/* contactgegevens form */
+/* bron: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms/& */
+input [type=text], select {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: flex;
+    justify-content: space-evenly;
+	border: 1px solid var(--color-filterbutton);
+	border-radius: 4px;
+	box-sizing: border-box;
+    font-family: 'hind', sans-serif;
+  }
+  
+  input[type=submit] {
+	width: 100%;
+	background-color: var(--color-filterbutton);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'hind', sans-serif;
+  }
+  
+  input[type=submit]:hover {
+	background-color: green;
+  }
+  
+  div {
+	background-color: var(--color-footerbackground);
+	padding: 20px;
+  }
