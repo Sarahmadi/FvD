@@ -2,14 +2,13 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-  box-sizing:border-box;  
+   box-sizing:border-box;  
 }
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
-:root {
-	/* startje */
+      :root {
 	  --color-text:#111;
       --color-background:#ffff;
       --color-details: #8ca89c;
@@ -19,12 +18,21 @@
       --color-footerbackground: #F7F8FA;
       --color-filterbutton: #498068;
 }
-    /* halloween thema */
-.alt-theme {
-      --color-primary: orange;
-      --color-theme: black;
+
+      /* kerst thema */
+      .alt-theme {
+      --color-primary: green;
+      --color-theme: red;
       --color-txt: white;
 }
+
+      /* dark mode */
+      .dark-mode {
+		--color-primary: white;
+		--color-theme: black;
+		--color-txt: white;
+		--color-header: blue;
+  }
 
 @font-face {
 	font-family: 'hind';
@@ -39,11 +47,12 @@
 }
 
 body {
-	background-color: var(--color-background);
-	font-family: 'hind', sans-serif;
-	background-color: var(--color-theme);
+    background-color: var(--color-background);
+    font-family: 'hind', sans-serif;
+    background-color: var(--color-theme);
 }
 
+/* logo byfloor */
 header section:last-of-type img {
 	width: 7.7em;
 	padding-bottom: 1em;
@@ -52,6 +61,7 @@ header section:last-of-type img {
 	margin-right: auto;
 }
 
+/* afbeeldingen homepage */
 main > section:first-of-type img:first-of-type {
 	padding-top: 1em;
 }
@@ -143,9 +153,74 @@ main > section:nth-of-type(6) p {
 	color: var(--color-txt);
 }
 
+/* kerst thema button */
 buttonthema {
 	color: var(--color-primary);
-	font-size: 7px;
+	font-size: 5px;
 	display: flex;
 	justify-content: center;
+}
+
+  /* kerst thema header */
+.alt-theme header nav {
+    background-color: var(--color-primary);
+}
+
+/* kerst thema footer */
+.alt-theme footer section:nth-of-type(2){
+    background-color: var(--color-theme);
+}
+
+/* kerst thema footer rechten p */
+.alt-theme footer section:nth-of-type(3) p {
+    color: var(--color-txt);
+}
+
+/* kerst thema menu binnenkant */
+.alt-theme header nav:nth-of-type(2) section:nth-of-type(1){
+    background-color: var(--color-theme);
+	color: var(--color-primary);
+}
+
+.alt-theme header button {
+    background-color: var(--color-theme);
+}
+
+
+/* dark mode button */
+/* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
+.dark-mode {
+    background-color: black;
+  }
+
+  /* dark mode button */
+  main > button:first-of-type {
+	  border: none;
+	  font-size: 5px;
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+	  background-color: transparent;
+	  padding-top: 2em;
+	  color: var(--color-primary);
+  }
+
+/* dark mode header */
+.dark-mode header nav {
+    background-color: var(--color-header);
+}
+
+/* dark mode footer */
+.dark-mode footer section:nth-of-type(2){
+    background-color: var(--color-theme);
+}
+
+/* dark mode menu binnenkant */
+.dark-mode header nav:nth-of-type(2) section:nth-of-type(1){
+    background-color: var(--color-theme);
+	color: var(--color-txt);
+}
+
+.dark-mode header button {
+    background-color: var(--color-theme);
 }

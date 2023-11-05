@@ -8,8 +8,7 @@
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
-  :root {
-      /* startje */
+      :root {
       --color-text:#111;
       --color-background:#ffff;
       --color-details: #8ca89c;
@@ -20,13 +19,6 @@
       --color-filterbutton: #498068;
   }
 
-      /* halloween thema */
-.alt-theme {
-    --color-primary: orange;
-    --color-theme: black;
-    --color-txt: white;
-}
-  
   @font-face {
       font-family: 'hind';
       src: url('../fonts/Hind-Regular.ttf') format('ttf');
@@ -133,7 +125,7 @@ main > section:nth-of-type(1) p {
       font-size: 16px;
       display: flex;
       justify-content: center;
-      margin: -1em;
+      margin: -1em; 
   }
 
   /* sieraden: prijs lijn erdoor */

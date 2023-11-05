@@ -8,8 +8,7 @@
   /*********************/
   /* CUSTOM PROPERTIES */
   /*********************/
-  :root {
-      /* startje */
+      :root {
       --color-text:#111;
       --color-background:#ffffff;
       --color-details: #8ca89c;
@@ -19,13 +18,6 @@
       --color-footerbackground: #F7F8FA;
       --color-filterbutton: #498068;
   }
-
-      /* halloween thema */
-.alt-theme {
-    --color-primary: orange;
-    --color-theme: black;
-    --color-txt: white;
-}
   
   @font-face {
       font-family: 'hind';
@@ -37,10 +29,6 @@
       font-family: 'hind';
       src: url('../fonts/Hind-Bold.ttf') format('ttf');
       font-weight: 700;
-  }
-
-  header nav {
-    background-color: var(--color-primary);
   }
 
   /* header buttons */
@@ -94,7 +82,6 @@
       padding-left: 0.5em;
       font-weight: 500;
       line-height: 1.8em;
-      color: var(--color-primary);
   }
   
   header nav:last-of-type a {
@@ -155,7 +142,6 @@ footer > section:first-of-type {
 
 footer > section:nth-of-type(2) {
     background-color: var(--color-footerbackground);
-    background-color: var(--color-primary);
 }
 
 /* footer lijst buitenkant */
@@ -210,7 +196,7 @@ details summary::-webkit-details-marker {
 }
 
 /* footer lijst binnenkant, klikken op plusje */
-/* -1em gebruikt bij margin, anders lukte het me niet... */
+/* -1em gebruikt bij margin, anders lukte het niet... */
 footer > section:first-of-type li {
 	font-size: 14px;
 	font-family: 'hind', sans-serif;
@@ -317,9 +303,3 @@ footer > section:last-of-type p {
 	margin: 0.4em;
 	font-weight: 500;
 }
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
