@@ -2,248 +2,265 @@
 /* CSS REMEDY */
 /**************/
 *, *::after, *::before {
-   box-sizing:border-box;  
-}
+	box-sizing:border-box;  
+ }
+ 
+ /*********************/
+ /* CUSTOM PROPERTIES */
+ /*********************/
+	   :root {
+	   --color-text:#111;
+	   --color-background:#ffff;
+	   --color-details: #8ca89c;
+	   --color-headings: #191919;
+	   --color-paragraph: #777777;
+	   --color-footerli: #888888;
+	   --color-footerbackground: #F7F8FA;
+	   --color-filterbutton: #498068;
+ }
+ 
+	   /* kerst thema */
+	   .alt-theme {
+	   --color-primary: white;
+	   --color-theme: #FF0000;
+	   --color-txt: white;
+	   --color-headings: black;
+ }
+ 
+	   /* dark mode */
+	   .dark-mode {
+		 --color-primary: white;
+		 --color-theme: black;
+		 --color-txt: white;
+		 --color-header: white;
+   }
+ 
+ @font-face {
+	 font-family: 'hind';
+	 src: url('../fonts/Hind-Regular.ttf') format('ttf');
+	 font-weight: 400;
+ }
+ 
+ @font-face {
+	 font-family: 'hind';
+	 src: url('../fonts/Hind-Bold.ttf') format('ttf');
+	 font-weight: 700;
+ }
+ 
+ body {
+	 background-color: var(--color-background);
+	 font-family: 'hind', sans-serif;
+	 background-color: var(--color-theme);
+ }
+ 
+   /* talen */
+   header nav:last-of-type section section {
+	 display: flex;
+	 justify-content: right;
+ }
+ 
+ /* logo byfloor */
+ header section:last-of-type img {
+	 width: 7.7em;
+	 padding-bottom: 1em;
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+ }
+ 
+ /* afbeeldingen homepage */
+ main > section:first-of-type img:first-of-type {
+	 padding-top: 1em;
+ }
+ 
+ main section div img:first-child {
+	 width: 100%;
+	 padding-bottom: 0.8em;
+ }
+ 
+ /* instagram link */
+ main > section:nth-of-type(2) p {
+	 font-size: 1.5em;
+	 display: flex;
+	 justify-content: center;
+	 text-transform: uppercase;
+	 font-family: hind, sans-serif;
+	 font-weight: 500;
+	 font-size: 24px;
+	 margin: 0em;
+ }
+ 
+ /* instagram paragraph */
+ main > section:nth-of-type(3) p {
+	 font-size: 1em;
+	 display: flex;
+	 justify-content: center;
+	 text-transform: uppercase;
+	 font-family: hind, sans-serif;
+	 font-weight: 500;
+	 font-size: 16px;
+	 margin: 0em;
+	 margin-bottom: 2em;
+	 color: var(--color-txt)
+ }
+ 
+ /* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
+ hr {
+	 border-top: solid #f0f0f0 0em;
+	 margin: 0em;
+ }
+ 
+ /* headings onderste teksten */
+ h1 {
+	 font-family: hind, sans-serif;
+	 font-size: 32px;
+	 color: #191919;
+	 font-weight: 500;
+	 margin-bottom: 0em;
+	 color: var(--color-primary);
+ }
+ 
+ h2 {
+	 font-family: hind, sans-serif;
+	 font-size: 26px;
+	 color: #191919;
+	 font-weight: 600;
+	 margin-bottom: 0em;
+	 color: var(--color-primary);
+ }
+ 
+ h3 {
+	 font-family: hind, sans-serif;
+	 font-size: 26px;
+	 color: #191919;
+	 font-weight: 600;
+	 color: var(--color-primary);
+ }
+ 
+ /* paragraphs onderste teksten */
+ main > section:nth-of-type(4) p {
+	 color: var(--color-paragraph);
+	 font-family: hind, sans-serif;
+	 font-size: 14px;
+	 margin-bottom: 3em;
+	 color: var(--color-txt);
+ }
+ 
+ main > section:nth-of-type(5) p {
+	 color: var(--color-paragraph);
+	 font-family: hind, sans-serif;
+	 font-size: 14px;
+	 color: var(--color-txt);
+ }
+ 
+ main > section:nth-of-type(6) p {
+	 color: var(--color-paragraph);
+	 font-family: hind, sans-serif;
+	 font-size: 14px;
+	 color: var(--color-txt);
+ }
 
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
-      :root {
-	  --color-text:#111;
-      --color-background:#ffff;
-      --color-details: #8ca89c;
-      --color-headings: #191919;
-      --color-paragraph: #777777;
-      --color-footerli: #888888;
-      --color-footerbackground: #F7F8FA;
-      --color-filterbutton: #498068;
-}
 
-      /* kerst thema */
-      .alt-theme {
-      --color-primary: #00CD00;
-      --color-theme: #FF0000;
-      --color-txt: white;
-}
-
-      /* dark mode */
-      .dark-mode {
-		--color-primary: white;
-		--color-theme: black;
-		--color-txt: white;
-		--color-header: white;
-  }
-
-@font-face {
-	font-family: 'hind';
-	src: url('../fonts/Hind-Regular.ttf') format('ttf');
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: 'hind';
-	src: url('../fonts/Hind-Bold.ttf') format('ttf');
-	font-weight: 700;
-}
-
-body {
-    background-color: var(--color-background);
-    font-family: 'hind', sans-serif;
-    background-color: var(--color-theme);
-}
-
-  /* talen */
-  header nav:last-of-type section section {
-	display: flex;
-	justify-content: right;
-}
-
-/* logo byfloor */
-header section:last-of-type img {
-	width: 7.7em;
-	padding-bottom: 1em;
+ /* kerst thema button styling*/
+ main > button:first-of-type {
+	border: none;
+	font-size: 8px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-/* afbeeldingen homepage */
-main > section:first-of-type img:first-of-type {
-	padding-top: 1em;
-}
-
-main > section:first-of-type img {
-	width: 100%;
-	padding-bottom: 0.8em;
-}
-
-/* instagram link */
-main > section:nth-of-type(2) p {
-	font-size: 1.5em;
-	display: flex;
-    justify-content: center;
-	text-transform: uppercase;
-	font-family: hind, sans-serif;
-	font-weight: 500;
-	font-size: 24px;
-	margin: 0em;
-}
-
-/* instagram paragraph */
-main > section:nth-of-type(3) p {
-	font-size: 1em;
-	display: flex;
-    justify-content: center;
-	text-transform: uppercase;
-	font-family: hind, sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	margin: 0em;
-	margin-bottom: 2em;
-	color: var(--color-txt)
-}
-
-/* bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp */
-hr {
-	border-top: solid #f0f0f0 0em;
-	margin: 0em;
-}
-
-/* headings onderste teksten */
-h1 {
-	font-family: hind, sans-serif;
-	font-size: 32px;
-	color: #191919;
-	font-weight: 500;
-	margin-bottom: 0em;
+	background-color: transparent;
+	padding-top: 2em;
 	color: var(--color-primary);
 }
 
-h2 {
-	font-family: hind, sans-serif;
-	font-size: 26px;
-	color: #191919;
-	font-weight: 600;
-	margin-bottom: 0em;
-	color: var(--color-primary);
+   /* kerst thema header */
+ .alt-theme header nav {
+	 background-color: var(--color-primary);
+	 border: dotted var(--color-filterbutton) 0.5em;
+ }
+ 
+ /* kerst thema menu binnenkant */
+ .alt-theme header nav:nth-of-type(2) section:nth-of-type(1){
+	 background-color: var(--color-theme);
+	 color: var(--color-primary);
+ }
+ 
+ .alt-theme header button {
+	 background-color: var(--color-theme);
+ }
+ 
+ .alt-theme header p:last-of-type {
+	 color: var(--color-primary);
+ }
+
+ /* kerst thema headings */
+ .alt-theme h1 {
+	color: var(--color-headings);
 }
 
-h3 {
-	font-family: hind, sans-serif;
-	font-size: 26px;
-	color: #191919;
-	font-weight: 600;
-	color: var(--color-primary);
+.alt-theme h2 {
+	color: var(--color-headings);
 }
 
-/* paragraphs onderste teksten */
-main > section:nth-of-type(4) p {
-	color: var(--color-paragraph);
-	font-family: hind, sans-serif;
-	font-size: 14px;
-	margin-bottom: 3em;
-	color: var(--color-txt);
+.alt-theme h3 {
+	color: var(--color-headings);
 }
-
-main > section:nth-of-type(5) p {
-	color: var(--color-paragraph);
-	font-family: hind, sans-serif;
-	font-size: 14px;
-	color: var(--color-txt);
-}
-
-main > section:nth-of-type(6) p {
-	color: var(--color-paragraph);
-	font-family: hind, sans-serif;
-	font-size: 14px;
-	color: var(--color-txt);
-}
-
-
-/* kerst thema button */
-/* gemaakt met hulp van donna */
-buttonthema {
-	color: var(--color-primary);
-	font-size: 5px;
-	display: flex;
-	justify-content: center;
-}
-
-  /* kerst thema header */
-.alt-theme header nav {
-    background-color: var(--color-primary);
-}
-
-/* kerst thema menu binnenkant */
-.alt-theme header nav:nth-of-type(2) section:nth-of-type(1){
-    background-color: var(--color-theme);
-	color: var(--color-primary);
-}
-
-.alt-theme header button {
-    background-color: var(--color-theme);
-}
-
-.alt-theme header p:last-of-type {
-    color: var(--color-primary);
-}
-
-/* kerst thema footer */
-.alt-theme footer section:nth-of-type(2){
-    background-color: var(--color-theme);
-}
-
-/* kerst thema footer rechten p */
-.alt-theme footer section:nth-of-type(3) p {
-    color: var(--color-txt);
-}
-
-
-/* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
-/* dark mode button */
-.dark-mode {
-    background-color: black;
-  }
-
-  /* dark mode button */
-  main > button:first-of-type {
-	  border: none;
-	  font-size: 5px;
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
-	  background-color: transparent;
-	  padding-top: 2em;
-	  color: var(--color-primary);
-  }
-
-/* dark mode header */
-.dark-mode header nav {
-    background-color: var(--color-header);
-}
-
-/* dark mode menu binnenkant */
-.dark-mode header nav:nth-of-type(2) section:nth-of-type(1){
-    background-color: var(--color-theme);
-	color: var(--color-txt);
-}
-
-.dark-mode header button {
-    background-color: var(--color-theme);
-}
-
-.dark-mode header p:last-of-type {
-    color: var(--color-txt);
-}
-
-/* dark mode footer */
-.dark-mode footer section:nth-of-type(2){
-    background-color: var(--color-theme);
-}
-
-/* bron: https://www.youtube.com/watch?v=ivzPXht4C5E */
-video {
+ 
+ /* kerst thema footer */
+ .alt-theme footer section:nth-of-type(2){
+	 background-color: var(--color-theme);
+ }
+ 
+ /* kerst thema footer rechten p */
+ .alt-theme footer section:nth-of-type(3) p {
+	 color: var(--color-txt);
+ }
+ 
+ 
+ /* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
+ /* dark mode button styling */
+ main > button:nth-of-type(2) {
+	border: none;
+	font-size: 8px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	background-color: transparent;
+	padding-top: 2em;
+	color: var(--color-primary);
 }
+
+ .dark-mode {
+	 background-color: black;
+   }
+ 
+ /* dark mode header */
+ .dark-mode header nav {
+	 background-color: var(--color-header);
+ }
+ 
+ /* dark mode menu binnenkant */
+ .dark-mode header nav:nth-of-type(2) section:nth-of-type(1){
+	 background-color: var(--color-theme);
+	 color: var(--color-txt);
+ }
+ 
+ .dark-mode header button {
+	 background-color: var(--color-theme);
+ }
+ 
+ .dark-mode header p:last-of-type {
+	 color: var(--color-txt);
+ }
+ 
+ /* dark mode footer */
+ .dark-mode footer section:nth-of-type(2){
+	 background-color: var(--color-theme);
+ }
+ 
+ /* bron: https://www.youtube.com/watch?v=ivzPXht4C5E */
+ video {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
+ }
