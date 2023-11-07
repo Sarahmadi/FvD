@@ -304,3 +304,45 @@ footer > section:first-of-type details:nth-of-type(3) p:first-of-type {
 .korting {
   color:red;
 }
+
+article:nth-of-type(9) {
+  position: relative;
+}
+
+article:nth-of-type(10) {
+  position: relative;
+}
+
+article img:nth-of-type(9) {
+  position: relative;
+}
+
+article img:nth-of-type(10) {
+  position: relative;
+}
+
+article:nth-of-type(9)::before  {
+  content: "Sale 20%";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 0.1em;
+  z-index: 1;
+  margin-top: 1.8em;
+  margin-left: 0.8em;
+}
+
+article:last-of-type::before  {
+  content: "Sale 20%";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  color: white;
+  padding: 0.1em;
+  z-index: 1;
+  margin-top: 1.8em;
+  margin-left: 0.8em;
+}

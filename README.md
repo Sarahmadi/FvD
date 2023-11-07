@@ -245,20 +245,20 @@ Ik:
 
 
   ### Dit was lastig/Is niet gelukt:
-  Update last minute: wel gelukt!! Mijn broertje heeft me geholpen last minute en door middel van een class is het dus wel gelukt! Ik snap nu ook hoe het moet en daar ben ik echt blij mee. Ik heb nu alleen niet genoeg tijd om alles te veranderen, maar ik snap het tenminste :)
+  Update last minute: wel gelukt!! Mijn broertje heeft me geholpen last minute en door middel van een class is het dus wel gelukt! Ik snap nu ook hoe het moet en daar ben ik echt blij mee. Ook weet ik nu hoe ik de tekst van de sale op de afbeelding kan krijgen. Ik heb 2 extra articles toegevoegd om dit te laten zien. Ik heb nu alleen niet genoeg tijd om alles te veranderen, maar ik snap het tenminste :)
 
   Mijn tekst voordat het lukte:
   Het is mij niet gelukt om de oude prijs naast de nieuwe prijs te krijgen.
   Het kwam doordat dit eerst nog niet zo op de site stond, maar later was er ineens een korting. Ik dacht dit is een uitdaging dus ik wil het proberen, maar het is mij niet gelukt. Ik denk dat ik het anders had moeten aanpakken in de html, maar ik was al zo ver dat als ik iets veranderde, ik alles overhoop haalde en dan kreeg ik paniek. Wel is het gelukt om de oude prijs door te strepen en de nieuwe rood te maken. Om dit voor mensen met een screenreader op te lossen, heb ik de sale bij de alt tekst geplaatst. Zo weten zij ook welke items in de sale zijn.
-  
-
 
   <img src="nietgelukt1.png" width="375px" alt="bummer">
   <img src="nietgelukt2.png" width="375px" alt="bummer">
   <img src="nietgelukt3.png" width="375px" alt="bummer">
-  <img src="gelukt1.png" width="375px" alt="bummer">
-  <img src="gelukt2.png" width="375px" alt="bummer">
-  <img src="gelukt3.png" width="375px" alt="bummer">
+  <img src="gelukt1.png" width="375px" alt="blij">
+  <img src="gelukt2.png" width="375px" alt="blij">
+  <img src="gelukt3.png" width="375px" alt="blij">
+  <img src="gelukt4.png" width="375px" alt="blij">
+  <img src="gelukt5.png" width="375px" alt="blij">
 </details>
 
 
