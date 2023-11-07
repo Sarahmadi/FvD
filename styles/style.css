@@ -84,9 +84,9 @@
 	 display: flex;
 	 justify-content: center;
 	 text-transform: uppercase;
-	 font-family: hind, sans-serif;
+	 font-family: 'hind', sans-serif;
 	 font-weight: 500;
-	 font-size: 24px;
+	 font-size: 1.5em;
 	 margin: 0em;
  }
  
@@ -96,9 +96,9 @@
 	 display: flex;
 	 justify-content: center;
 	 text-transform: uppercase;
-	 font-family: hind, sans-serif;
+	 font-family: 'hind', sans-serif;
 	 font-weight: 500;
-	 font-size: 16px;
+	 font-size: 1em;
 	 margin: 0em;
 	 margin-bottom: 2em;
 	 color: var(--color-txt)
@@ -112,8 +112,8 @@
  
  /* headings onderste teksten */
  h1 {
-	 font-family: hind, sans-serif;
-	 font-size: 32px;
+	 font-family: 'hind', sans-serif;
+	 font-size: 2em;
 	 color: var(--color-headings);
 	 font-weight: 500;
 	 margin-bottom: 0em;
@@ -121,8 +121,8 @@
  }
  
  h2 {
-	 font-family: hind, sans-serif;
-	 font-size: 26px;
+	 font-family: 'hind', sans-serif;
+	 font-size: 1.6em;
 	 color: var(--color-headings);
 	 font-weight: 600;
 	 margin-bottom: 0em;
@@ -130,40 +130,41 @@
  }
  
  h3 {
-	 font-family: hind, sans-serif;
-	 font-size: 26px;
+	 font-family: 'hind', sans-serif;
+	 font-size: 1.6em;
 	 color: var(--color-headings);
 	 font-weight: 600;
 	 color: var(--color-primary);
+	 margin-bottom: 0em;
  }
  
  /* paragraphs onderste teksten */
  main > section:nth-of-type(4) p {
 	 color: var(--color-paragraph);
-	 font-family: hind, sans-serif;
-	 font-size: 14px;
+	 font-family: 'hind', sans-serif;
+	 font-size: 0.88em;
 	 margin-bottom: 3em;
 	 color: var(--color-txt);
  }
  
  main > section:nth-of-type(5) p {
 	 color: var(--color-paragraph);
-	 font-family: hind, sans-serif;
-	 font-size: 14px;
+	 font-family: 'hind', sans-serif;
+	 font-size: 0.88em;
 	 color: var(--color-txt);
  }
  
  main > section:nth-of-type(6) p {
-	 color: var(--color-paragraph);
-	 font-family: hind, sans-serif;
-	 font-size: 14px;
+	 color: var(--color-txt);
+	 font-family: 'hind', sans-serif;
+	 font-size: 0.88em;
 	 color: var(--color-txt);
  }
 
  /* kerst thema button styling*/
  main > button:first-of-type {
 	border: none;
-	font-size: 8px;
+	font-size: 0.6em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -223,7 +224,7 @@
  /* dark mode button styling */
  main > button:nth-of-type(2) {
 	border: none;
-	font-size: 8px;
+	font-size: 0.6em;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -246,7 +247,7 @@
  .dark-mode header p:last-of-type {
 	 color: var(--color-txt);
  }
- 
+
  /* dark mode footer */
  .dark-mode footer section:nth-of-type(2){
 	 background-color: var(--color-theme);
@@ -271,7 +272,7 @@
 	 margin-left: auto;
 	 margin-right: auto;
 	 background-color: var(--color-footerbackground);
-	 padding: 15px 35px 35px 35px;
+	 padding: 1em 1.6em 1.6em 1.6em;
  }
 
  /* footer tekst videos */
@@ -279,8 +280,8 @@
 	display: flex;
 	justify-content: flex-start;
 	padding-left: 1.5em;
-	font-family: hind, sans-serif;
-	font-size: 15px;
+	font-family: 'hind', sans-serif;
+	font-size: 1em;
 	font-weight: 600;
 	padding-top: 2em;
 	margin-bottom: 1em;
@@ -290,15 +291,15 @@
 	display: flex;
 	justify-content: flex-start;
 	padding-left: 1.7em;
-	font-family: hind, sans-serif;
-	font-size: 13px;
+	font-family: 'hind', sans-serif;
+	font-size: 0.7em;
  }
 
 footer > p:nth-of-type(3) {
 	display: flex;
 	justify-content: flex-start;
 	padding-left: 1.7em;
-	font-family: hind, sans-serif;
-	font-size: 13px;
+	font-family: 'hind', sans-serif;
+	font-size: 0.7em;
 	padding-bottom: 4em;
  }

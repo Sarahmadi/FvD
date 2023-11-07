@@ -231,7 +231,7 @@ Ik:
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Ik heb natuurlijk niet de moeilijkste website gekozen, maar dit was al echt een uitdaging voor mij. Ik ben ten eerste echt blij met hoeveel js kennis ik heb opgedaan, ik heb nog nooit zoveel js gebruikt. Ik heb geleerd om met :root te werken (hier snapte ik vorig jaar niks van), ik heb geleerd om met @fontface te werken, dit heb ik vorig jaar niet eens geleerd. Ook ben ik heel blij met dat de dark mode werkt en ik zelf een aanmeld formulier heb gemaakt in de footer bij 'meld je aan voor onze nieuwsbrief'. Ik merkte dat ik sowieso meer vragen stelde aan de student assistent, vorig jaar deed ik dit amper omdat ik me dan dom voelde. Maar Donna reageerde echt direct. Ze gaf niet gelijk het antwoord weg, maar gaf steeds een hint waardoor ik zelf ook kon nadenken, dit vond ik wel erg fijn, want zo ging ik het ook begrijpen ipv. dat ze het antwoord maar gaf.
+  Ik heb natuurlijk niet de moeilijkste website gekozen, maar dit was al echt een uitdaging voor mij. Ik ben ten eerste echt blij met hoeveel js kennis ik heb opgedaan, ik heb nog nooit zoveel js gebruikt. Ik heb geleerd om met :root te werken (hier snapte ik vorig jaar niks van), ik heb geleerd om met @fontface te werken, dit heb ik vorig jaar niet eens geleerd. Ook ben ik heel blij met dat de dark mode werkt en ik zelf een aanmeld formulier heb gemaakt in de footer bij 'meld je aan voor onze nieuwsbrief'. Ik merkte dat ik sowieso meer vragen stelde aan de student assistent, vorig jaar deed ik dit amper omdat ik me dan dom voelde. Maar Donna reageerde echt direct. Ze gaf niet gelijk het antwoord weg, maar gaf steeds een hint waardoor ik zelf ook kon nadenken, dit vond ik wel erg fijn, want zo ging ik het ook begrijpen ipv. dat ze het antwoord maar gaf. Op de laatste dag voor het inleveren, stuurde ik mijn site naar Donna en vroeg of zij nog laatste tips had om de puntjes op de i te zetten. Ik kreeg de volgende tips: filter:invert(1); voor dark-mode. Dat heeft me echt heel erg geholpen met witte achtergronden bij img, die er lelijk uitzagen als dark-mode aanstond en daardoor heb ik ook veel extra code kunnen weg halen. Kijken naar kleurgebruik voor inclusiviteit bij custom thema. Geen px gebruiken bij font-size (ik wist niet dat dat niet mocht, dus snel alles veranderd naar em). Dit waren kleine veranderingen, maar uiteindelijk maakte het een groot verschil.
 
   <img src="blij1.png" width="375px" alt="top">
   <img src="blij2.png" width="375px" alt="top">
@@ -245,12 +245,20 @@ Ik:
 
 
   ### Dit was lastig/Is niet gelukt:
+  Update last minute: wel gelukt!! Mijn broertje heeft me geholpen last minute en door middel van een class is het dus wel gelukt! Ik snap nu ook hoe het moet en daar ben ik echt blij mee. Ik heb nu alleen niet genoeg tijd om alles te veranderen, maar ik snap het tenminste :)
+
+  Mijn tekst voordat het lukte:
   Het is mij niet gelukt om de oude prijs naast de nieuwe prijs te krijgen.
-  Het kwam doordat dit eerst nog niet zo op de site stond, maar later was er ineens een korting. Ik dacht dit is een uitdaging dus ik wil het proberen, maar het is mij niet gelukt. Ik denk dat ik het anders had moeten aanpakken in de html, maar ik was al zo ver dat als ik iets veranderde, ik alles overhoop haalde en dan kreeg ik paniek. Wel is het gelukt om de oude prijs door te strepen en de nieuwe rood te maken.
+  Het kwam doordat dit eerst nog niet zo op de site stond, maar later was er ineens een korting. Ik dacht dit is een uitdaging dus ik wil het proberen, maar het is mij niet gelukt. Ik denk dat ik het anders had moeten aanpakken in de html, maar ik was al zo ver dat als ik iets veranderde, ik alles overhoop haalde en dan kreeg ik paniek. Wel is het gelukt om de oude prijs door te strepen en de nieuwe rood te maken. Om dit voor mensen met een screenreader op te lossen, heb ik de sale bij de alt tekst geplaatst. Zo weten zij ook welke items in de sale zijn.
+  
+
 
   <img src="nietgelukt1.png" width="375px" alt="bummer">
   <img src="nietgelukt2.png" width="375px" alt="bummer">
   <img src="nietgelukt3.png" width="375px" alt="bummer">
+  <img src="gelukt1.png" width="375px" alt="bummer">
+  <img src="gelukt2.png" width="375px" alt="bummer">
+  <img src="gelukt3.png" width="375px" alt="bummer">
 </details>
 
 

@@ -79,7 +79,7 @@ header nav:last-of-type>section:first-of-type {
 header nav:last-of-type ul {
     list-style: none;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 0.89em;
     font-family: 'hind', sans-serif;
     padding-top: 1em;
     padding-left: 0.5em;
@@ -105,14 +105,14 @@ body.zichtbaar {
 
 /* menu binnenkant: sluiten */
 header p:last-of-type {
-    font-size: 14px;
+    font-size: 0.9em;
     font-family: 'hind', sans-serif;
     color: var(--color-paragraph);
     padding-left: 1em;
 }
 
 header button {
-    width: 20px;
+    width: 1em;
     border: none;
     background-color: white;
     color: var(--color-paragraph);
@@ -157,15 +157,15 @@ footer>section:nth-of-type(2) {
 
 /* footer lijst buitenkant */
 footer>section:first-of-type summary {
-    font-size: 16px;
+    font-size: 1em;
     text-transform: uppercase;
-    font-family: hind, sans-serif;
+    font-family: 'hind', sans-serif;
     color: var(--color-heading);
-    padding-top: 12px;
-    padding-right: 20px;
-    padding-left: 25px;
-    border-bottom: 1px solid #e9e7e7;
-    line-height: 2px;
+    padding-top: 1em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    border-bottom: 0.1em solid #e9e7e7;
+    line-height: 1em;
     font-weight: 500;
     background-color: var(--color-footerbackground);
     background-color: var(--color-theme);
@@ -209,7 +209,7 @@ details summary::-webkit-details-marker {
 /* footer lijst binnenkant, klikken op plusje */
 /* -1em gebruikt bij margin, anders lukte het niet... */
 footer>section:first-of-type li {
-    font-size: 14px;
+    font-size: 0.9em;
     font-family: 'hind', sans-serif;
     font-weight: 300;
     color: var(--color-footerli);
@@ -221,7 +221,7 @@ footer>section:first-of-type li {
 
 /* footer lijst binnenkant, klikken op plusje, laatste */
 footer>section:first-of-type p {
-    font-size: 14px;
+    font-size: 0.9em;
     font-weight: 300;
     color: var(--color-paragraph);
     background-color: var(--color-footerbackground);
@@ -233,17 +233,17 @@ footer>section:first-of-type p {
 footer form {
     display: flex;
     justify-content: center;
-    padding: 8px;
+    padding: 1em;
 }
 
 /* footer lijst binnenkant, klikken op plusje, laatste, e-mail binnenkant */
 footer input[type="search"] {
     border: none;
     text-indent: 0.6em;
-    font-size: 16px;
+    font-size: 1em;
     font-family: 'hind', sans-serif;
     font-weight: 300;
-    padding: 8px;
+    padding: 0.5em;
     color: var(--color-paragraph);
     border-radius: 0.5em;
     width: calc(100% - 1.5em);
@@ -255,14 +255,14 @@ footer button {
     background-color: var(--color-filterbutton);
     border: none;
     border-radius: 0.5em;
-    padding: 8px;
+    padding: 0.6em;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: calc(100% - 3.5em);
     text-transform: uppercase;
     font-family: 'hind', sans-serif;
-    font-size: 12.5px;
+    font-size: 0.8em;
 }
 
 /* social media iconen */
@@ -276,13 +276,13 @@ footer>section:nth-of-type(2) img {
 /* rechten */
 footer>section:nth-of-type(3) img {
     width: 0.8em;
-    margin-left: 30px;
+    margin-left: 2em;
 }
 
 footer>section:nth-of-type(3) p {
     display: inline-block;
     color: var(--color-paragraph);
-    font-size: 14px;
+    font-size: 0.87em;
     padding-bottom: 0.4em;
     font-weight: 100;
 }
@@ -308,7 +308,7 @@ footer>section:last-of-type p {
     display: flex;
     justify-content: center;
     text-transform: uppercase;
-    font-size: 12px;
+    font-size: 0.75em;
     color: var(--color-heading);
     padding-bottom: 2.2em;
     margin: 0.4em;

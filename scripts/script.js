@@ -75,3 +75,19 @@ function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+/* micro interactie toevoegen aan winkelmandje */
+function changeImage() {
+  var imgClickAndChange = document.getElementById("imgClickAndChange");
+  var imgClickAndChange2 = document.getElementById("imgClickAndChange2");
+
+  if (imgClickAndChange.src.endsWith("toevoegen.jpg")) {
+    imgClickAndChange.src = "images/toevoegen2.jpg";
+    imgClickAndChange2.src = "images/winkelmandje2.png";
+
+  /* timer van 0.5 seconden */
+    setTimeout(function () {
+      imgClickAndChange.src = "images/toevoegen.jpg";
+    }, 500);
+  }
+}
