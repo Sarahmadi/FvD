@@ -90,33 +90,27 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
 
-
-
 ## Voortgang 1 (week 2)
 
 <details>
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Alle html van de 1e pagina heb ik erin staan. Ik weet nog van vorig jaar hoe ik in de footer bijvoorbeeld een uitklapbaar menu maak, dus dit heb ik makkelijk kunnen maken. Het ziet er nu erg chaotisch uit, maar alles staat er in ieder geval wel in. Na dit voorgangsgesprek weet ik of alles netjes in de juiste sections staat, en kan ik gaan beginnen met css. Daar heb ik wel zin in, want het stijlen vind ik het leukst, maar ook lastig.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Sarah          | Esra               | Magdalena    | Liam             | Jornt
-  | -Icoontjes     | ---                | ---          | ---      
-  | -Klikbaar      | en dit             | en ik dit    | en dan ik dat    |
-  |                | dit als er tijd is | nog een punt | dit wil ik zeker |
-  |                | ...                | ...          | ...              | 
-
+Sarah: Icoontjes maken, wat moet klikbaar zijn, wat is samen een section, is onderin ook een nav
+Jornt: Hoe fonts vinden van je site
+Magdalena: Grid indeling plaatjes
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- Sections goed indelen
-- Icoontjes apart van elkaar downloaden
-- Onderin geen nav
+- Punt 1: Sections goed indelen
+- Punt 2: Icoontjes apart van elkaar downloaden via zo'n site
+- Punt 3: Onderin geen nav gebruiken
 
 </details>
 
@@ -130,7 +124,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Begonnen aan m'n css en dit ging eigenlijk beter dan ik had verwacht.
+  Veel herkende ik nog van vorig jaar of kon ik terug vinden in opdrachten
+  van vorig jaar, dus dan herinnerde ik me weer hoe bepaalde dingen werken.
+  Ik merk dat ik het lastig vind om erin te komen, maar als ik er eenmaal in zit
+  dan gaat het best goed.
 
 
   ### Agenda voor meeting
@@ -153,9 +151,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
  -Hoe spreek ik alleen het logo aan, laatste img van de header in de 2e nav
 
   ### Verslag van meeting
-  - punt 1: @font face gebruiken
-  - punt 2: var gebruiken voor kleuren enzo
-  - punt 3: niet schreeuwen (uppercase in css gebruiken)
+  - Punt 1: @Font face gebruiken. Dit kende ik hiervoor nog helemaal niet...
+  - Punt 2: Een root aanmaken, zodat ik var() kan gebruiken als ik kleuren wil gebruiken. Dit kende ik ook nog helemaal niet.
+  - Punt 3: Niet schreeuwen in html. In css kan je aangeven dat het in uppercase moet zijn.
 
 </details>
 
@@ -183,7 +181,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik ben begonnen aan de 2e html pagina. Ik heb nu ook 3 CSS bestanden. Alles wat op beide pagina's voorkomt, heb ik gekopieerd vanuit het 1e CSS bestand, en in het gezamelijke CSS bestand geplakt, zoals de header, nav en footer.
+  Ik gebruik steeds vaker dat groene tekstje in css om erbij te zetten wat de code inhoud. Dit vind ik voor mijzelf ook handig, want als ik er weer mee bezig ga weet ik welke code waarvoor is. Vorig jaar deed ik dit niet en ik merk hoe handig het is, anders word ik zo duizelig van de chaos.
+  Ik ben ook aan het nadenken wat ik wil doen voor de surface plane. Ik denk aan videos/geluid, formulieren, een thema en light/dark mode. Voor de laatste 2 heb ik wel hulp nodig, dus ik ga een student assistent vragen om hulp.
 
 
   ### Agenda voor meeting
@@ -211,10 +211,9 @@ Ik:
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Punt 1: De fonts moet ik in een mapje plaatsen, anders herkent hij ze niet
+  - Punt 2: De font weights kan ik ook in de font face zetten, zodat hij deze automatisch pakt, dit wist ik nog niet.
+  - Punt 3: Als ik elementen dichter op elkaar wil krijgen, kan ik margin: 0em; gebruiken. Dit komt bijvoorbeeld voor bij de instagram link met daaronder het woord 'instagram'.
 
 </details>
 
@@ -232,18 +231,27 @@ Ik:
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  Ik heb natuurlijk niet de moeilijkste website gekozen, maar dit was al echt een uitdaging voor mij. Ik ben ten eerste echt blij met hoeveel js kennis ik heb opgedaan, ik heb nog nooit zoveel js gebruikt. Ik heb geleerd om met :root te werken (hier snapte ik vorig jaar niks van), ik heb geleerd om met @fontface te werken, dit heb ik vorig jaar niet eens geleerd. Ook ben ik heel blij met dat de dark mode werkt en ik zelf een aanmeld formulier heb gemaakt in de footer bij 'meld je aan voor onze nieuwsbrief'. Ik merkte dat ik sowieso meer vragen stelde aan de student assistent, vorig jaar deed ik dit amper omdat ik me dan dom voelde. Maar Donna reageerde echt direct. Ze gaf niet gelijk het antwoord weg, maar gaf steeds een hint waardoor ik zelf ook kon nadenken, dit vond ik wel erg fijn, want zo ging ik het ook begrijpen ipv. dat ze het antwoord maar gaf.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="blij1.png" width="375px" alt="top">
+  <img src="blij2.png" width="375px" alt="top">
+  <img src="blij3.png" width="375px" alt="top">
+  <img src="blij4.png" width="375px" alt="top">
+  <img src="blij5.png" width="375px" alt="top">
+  <img src="blij6.png" width="375px" alt="top">
+  <img src="blij7.png" width="375px" alt="top">
+  <img src="blij8.png" width="375px" alt="top">
+  <img src="blij9.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  Het is mij niet gelukt om de oude prijs naast de nieuwe prijs te krijgen.
+  Het kwam doordat dit eerst nog niet zo op de site stond, maar later was er ineens een korting. Ik dacht dit is een uitdaging dus ik wil het proberen, maar het is mij niet gelukt. Ik denk dat ik het anders had moeten aanpakken in de html, maar ik was al zo ver dat als ik iets veranderde, ik alles overhoop haalde en dan kreeg ik paniek. Wel is het gelukt om de oude prijs door te strepen en de nieuwe rood te maken.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="nietgelukt1.png" width="375px" alt="bummer">
+  <img src="nietgelukt2.png" width="375px" alt="bummer">
+  <img src="nietgelukt3.png" width="375px" alt="bummer">
 </details>
-
-
 
 
 
@@ -252,12 +260,15 @@ Ik:
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
-
-  1. bron 1
-  2. bron 2
-  3. ...
+  1.  bron hr: https://www.w3schools.com/howto/howto_css_style_hr.asp
+  Deze bron heb ik gebruikt om in de header een dun lijntje te krijgen, tussen de nav en het logo van de site. Het is maar een klein iets, maar dit was wel iets wat ik moest opzoeken.
+  2. bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode
+  Deze bron heb ik gebruikt om een dark mode button te creeeren op de site. Dit was makkelijker dan ik dacht, toen ik het zag dacht ik ook van 'dit had ik zelf eigenlijk ook kunnen bedenken', maar toch moest ik het opzoeken.
+  3. bron: https://www.youtube.com/watch?v=tkLi7fkPdAc, https://www.youtube.com/watch?v=pzCI7DXL0Qc, 
+  Als een van de surface plane onderdelen, heb ik video's toegevoegd aan m'n site. Ik wist hoe dit moest van voorgaande jaren, dus ik had geen bron nodig om te weten hoe het moest. De video's werken in het voordeel van de klant. Er staan handige tips in voor sieraden. Zelf zoek ik dit altijd op op youtube, dus het zou handig zijn voor de klanten om dit terug te kunnen vinden op de site. Ook komen klanten zo vaker terug op de site :)
+  4. bron: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms/&
+  Deze bron heb ik gebruikt om een formulier op mijn pagina te krijgen, als een van de surface plane onderdelen. Ik snap hoe het werkt, maar uit mijn hoofd had ik dit niet geweten. Bijvoorbeeld label en text input, dat ken ik helemaal niet.
+  5. bron: hulp van donna.
+  Ik heb een kerst thema button op mijn site, en het makkelijkste is natuurlijk dat als je klikt op de button, de kleuren veranderen op de site. Dit had ik gedaan met de root. Dit vond ik te weinig, dus ik wou graag dat er een kerstplaatje op de afbeeldingen verscheen. Donna had mij geholpen om dit te realiseren.
 
 </details>

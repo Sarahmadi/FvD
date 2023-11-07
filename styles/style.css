@@ -67,7 +67,7 @@
 	 margin-left: auto;
 	 margin-right: auto;
  }
- 
+
  /* afbeeldingen homepage */
  main > section:first-of-type img:first-of-type {
 	 padding-top: 1em;
@@ -114,7 +114,7 @@
  h1 {
 	 font-family: hind, sans-serif;
 	 font-size: 32px;
-	 color: #191919;
+	 color: var(--color-headings);
 	 font-weight: 500;
 	 margin-bottom: 0em;
 	 color: var(--color-primary);
@@ -123,7 +123,7 @@
  h2 {
 	 font-family: hind, sans-serif;
 	 font-size: 26px;
-	 color: #191919;
+	 color: var(--color-headings);
 	 font-weight: 600;
 	 margin-bottom: 0em;
 	 color: var(--color-primary);
@@ -132,7 +132,7 @@
  h3 {
 	 font-family: hind, sans-serif;
 	 font-size: 26px;
-	 color: #191919;
+	 color: var(--color-headings);
 	 font-weight: 600;
 	 color: var(--color-primary);
  }
@@ -257,10 +257,44 @@
  .dark-mode footer section:nth-of-type(2){
 	 background-color: var(--color-theme);
  }
+
+ .dark-mode footer p {
+	color: var(--color-txt);
+}
  
- /* bron: https://www.youtube.com/watch?v=ivzPXht4C5E */
+ /* bron: https://www.youtube.com/watch?v=tkLi7fkPdAc */
  video {
 	 display: block;
 	 margin-left: auto;
 	 margin-right: auto;
+	 background-color: var(--color-footerbackground);
+	 padding: 15px 35px 35px 35px;
  }
+
+ footer > p:first-of-type {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 1.5em;
+	font-family: hind, sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	padding-top: 2em;
+	margin-bottom: 1em;
+ }
+
+ footer > p:nth-of-type(2) {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 1.7em;
+	font-family: hind, sans-serif;
+	font-size: 13px;
+}
+
+footer > p:nth-of-type(3) {
+	display: flex;
+	justify-content: flex-start;
+	padding-left: 1.7em;
+	font-family: hind, sans-serif;
+	font-size: 13px;
+	padding-bottom: 4em;
+}

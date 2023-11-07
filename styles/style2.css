@@ -17,6 +17,7 @@
     --color-footerli: #888888;
     --color-footerbackground: #F7F8FA;
     --color-filterbutton: #498068;
+    --color-kerstparagraph: red;
 }
 
 @font-face {
@@ -232,8 +233,10 @@ main > section:nth-of-type(8) p {
 }
 
 
-/* contactgegevens form */
+/* kerst winactie form */
 /* bron: https://www.w3schools.com/css/tryit.asp?filename=trycss_forms/& */
+/* zonder bron zou ik dit niet kunnen, ik snap hoe het in elkaar zit,
+ook met de html, maar uit mijn hoofd zou ik dit niet kunnen */
 input [type=text], select {
 width: 100%;
 padding: 12px 20px;
@@ -255,15 +258,42 @@ margin: 8px 0;
 border: none;
 border-radius: 4px;
 cursor: pointer;
-  text-transform: uppercase;
-  font-family: 'hind', sans-serif;
+text-transform: uppercase;
+font-family: 'hind', sans-serif;
 }
 
 input[type=submit]:hover {
 background-color: green;
 }
 
+label {
+  display: flex;
+  justify-content: center;
+  font-family: 'hind',sans-serif;
+}
+
+input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'hind',sans-serif;
+}
+
 div:last-of-type {
 background-color: var(--color-footerbackground);
 padding: 20px;
+}
+
+/* kerst winactie paragraph */
+footer > section:first-of-type details:nth-of-type(3) p {
+  color: var(--color-kerstparagraph);
+  font-family: 'hind',sans-serif;
+  font-size: 13px;
+}
+
+footer > section:first-of-type details:nth-of-type(3) p:first-of-type {
+  font-family: 'hind',sans-serif;
+  font-weight: 500;
+  padding-top: 1em;
+  font-size: 15px;
 }
