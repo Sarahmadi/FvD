@@ -5,11 +5,11 @@
 	<meta charset="UTF-8">
 	<meta name="author" content="Sarah Ahmadi">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="styles/style3.css" rel="stylesheet">
 	<link href="styles/style.css" rel="stylesheet">
 
 	<title>ByFloor</title>
 
-	<link href="styles/style3.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/logo.jpg">
 </head>
 
@@ -17,10 +17,18 @@
 	<header>
 		<nav>
 			<section>
-				<img src="images/menu.png" alt="icoontje van een hamburger menu">
-				<img src="images/zoeken.png" alt="icoontje van een vergrootglas">
-				<img src="images/winkelmandje.png" alt="icoontje van een winkelmandje">
-				<img src="images/account.png" alt="icoontje van jouw account">
+				<button aria-label="toggle menu">
+					<img src="images/menu.png" alt="icoontje van een hamburger menu">
+				</button>
+				<button aria-label="zoeken">
+					<img src="images/zoeken.png" alt="icoontje van een vergrootglas">
+				</button>
+				<button>
+					<img src="images/winkelmandje.png" alt="icoontje van een winkelmandje" id="imgClickAndChange2">
+				</button>
+				<button>
+					<img src="images/account.png" alt="icoontje van jouw account">
+				</button>
 			</section>
 		</nav>
 		<nav>
@@ -43,12 +51,10 @@
 			</section>
 			<section>
 				<button>
-					<img src="images/kruisje.png" alt="afbeelding van een kruisje">
+					<img src="images/kruisje.png" alt="afbeelding van een kruisje"> sluiten
 				</button>
-				<p>Sluiten</p>
 			</section>
 		</nav>
-		<hr>
 		<section>
 			<img src="images/logo.jpg" alt="afbeelding van het byfloor logo">
 		</section>
@@ -57,20 +63,26 @@
 	<main>
 		<button>Kerst Thema</button>
 		<button onclick="myFunction()">Dark Mode</button>
+
 		<section>
-			<div><img src="images/sieraden2.png" alt="afbeelding van de sieraden pagina"></div>
-			<div><img src="images/kleding2.png" alt="afbeelding van de kleding pagina"></div>
-			<div><img src="images/accessoires2.png" alt="afbeelding van de accessoires pagina"></div>
-			<div><img src="images/sale2.png" alt="afbeelding van tasjes"></div>
-			<div><img src="images/winkel2.png" alt="afbeelding van de winkel"></div>
+			<h2 class="visually-hidden">Sieraden</h2>
+			<ul class="image-list">
+				<li><div><img src="images/sieraden2.png" alt="afbeelding van de sieraden pagina"></div></li>
+				<li><div><img src="images/kleding2.png" alt="afbeelding van de kleding pagina"></div></li>
+				<li><div><img src="images/accessoires2.png" alt="afbeelding van de accessoires pagina"></div></li>
+				<li><div><img src="images/sale2.png" alt="afbeelding van tasjes"></div></li>
+				<li><div><img src="images/winkel2.png" alt="afbeelding van de winkel"></div></li>
+			</ul>
 		</section>
 
 		<section>
+			<h2 class="visually-hidden">Instagram link naar byfloor</h2>
 			<p> <a href="url">@byfloor</a> </p>
 		</section>
 		<section>
 			<p>instagram</p>
 		</section>
+
 		<section>
 			<h1>Trendy Dameskleding online</h1>
 			<p>Welkom op onze webshop ByFLOOR.nl waar je makkelijk en veilig trendy
@@ -96,7 +108,8 @@
 				creëren met bijvoorbeeld zilveren sieraden of kralen sieraden. Of het nou om zakelijk of
 				festival-fun gaat, alles kan en mag. Leuke basic jeans met een t- Shirt en een toffe
 				haarband is lekker casual en ga je voor een slangenprint flair pijp broek met een
-				transparante top dan ben je klaar voor een trendy feestje. Denk aan een combinatie van
+				transparante top dan ben je klaar voor een trendy feestje.</p>
+			<p> Denk aan een combinatie van
 				verschillende kettinkjes met verschillende lengtes. Of de combinatie zilveren ketting met
 				een gouden ketting, alles is mogelijk. En niet te vergeten de verschillende armbanden,
 				van bangel slavenarmband met tekst tot schelpenarmband, van gouden dames armband
@@ -106,8 +119,9 @@
 				direct op in en zal wekelijks nieuwe sieraden toegevoegd worden op onze webshop
 				en winkels.</p>
 		</section>
+
 		<section>
-			<h3>Betaalbare Dameskleding webshop</h3>
+			<h2>Betaalbare Dameskleding webshop</h2>
 			<p>Of je nu makkelijk betaalbare dameskleding online via onze webshop ByFLOOR.nl wilt
 				bestellen, of in onze fysieke winkel in Breda, het kan beide. Dus gezellig tussen de
 				kledingrekjes snuffelen kan ook in onze trendy dameskleding winkel in Breda. Shop je
@@ -121,33 +135,40 @@
 	</main>
 
 	<footer>
+		<!-- <section></section> laat maar -->
+		<h2 class="visually-hidden">De Tips van Floor</h2>
 		<p>De tips van Floor! Week 12</p>
+
 		<video width="320" height="240" controls>
 			<source src="images/schoonmaken.mp4" type="video/mp4">
 		</video>
 		<p>Tip van Floor! Hoe maak je je zilveren sieraden schoon?</p>
+
 		<video width="320" height="240" controls>
 			<source src="images/vakantie.mp4" type="video/mp4">
 		</video>
 		<p>Tip van Floor! Hoe neem je sieraden mee op vakantie?</p>
+
 		<section>
+			<h2 class="visually-hidden">asjkdvbakjhsfvbadhjfks</h2>
 			<details>
 				<summary>klantenservice</summary>
 				<ul>
-					<li>Algemene Voorwaarden</li>
-					<li>Veelgestelde Vragen</li>
-					<li>Retour Aanmelden</li>
+					<!-- in de li een a -->
+					<li><a href="#">Algemene Voorwaarden</a></li>
+					<li><a href="#">Veelgestelde Vragen</a></li>
+					<li><a href="#">Retour Aanmelden</a></li>
 				</ul>
 			</details>
 			<details>
 				<summary>by floor</summary>
 				<ul>
-					<li>Over ons</li>
-					<li>Privacy & Cookies</li>
-					<li>Contact</li>
-					<li>Dameskleding Breda</li>
-					<li>Sieraden winkel Breda</li>
-					<li>Nagelstyliste Breda</li>
+					<li><a href="#">Over ons</a></li>
+					<li><a href="#">Privacy & Cookies</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Dameskleding Breda</a></li>
+					<li><a href="#">Sieraden winkel Breda</a></li>
+					<li><a href="#">Nagelstyliste Breda</a></li>
 				</ul>
 			</details>
 			<details>
@@ -176,20 +197,25 @@
 
 			</details>
 		</section>
+
 		<section>
-			<img src="images/facebook.png" alt="facebook icoontje">
-			<img src="images/instagram.png" alt="instagram icoontje">
-			<img src="images/pinterest.png" alt="pinterest icoontje">
+			<a href="https://www.facebook.com/?locale=nl_NL"><img src="images/facebook.png" alt="facebook icoontje"></a>
+			<a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icoontje"></a>
+			<a href="https://nl.pinterest.com/"><img src="images/pinterest.png" alt="pinterest icoontje"></a>
+		</section>
+
+		<section>
+			<!-- <img src="images/c.png" alt="icoontje van een c"> -->
+			<p>© Floorkidzstore 2019. Alle rechten voorbehouden</p>
+		</section>
+
+		<section>
+			<h2 class="visually-hidden">betaalmogelijkheden</h2>
+			<img src="images/betalen.jpg" alt="Visa, PayPal, MasterCard, AfterPay, Mister Cash, Cash On Pickup, IDeal, Maestro">
 		</section>
 		<section>
-			<img src="images/c.png" alt="icoontje van een c">
-			<p>Floorkidzstore 2019. Alle rechten voorbehouden</p>
-		</section>
-		<section>
-			<img src="images/betalen.jpg" alt="afbeelding van de betaalmogelijkheden">
-		</section>
-		<section>
-			<img src="images/omhoog.jpg" alt="icoontje van een pijl omhoog">
+			<!-- a-tje -->
+			<a href="http://127.0.0.1:5500/index.html"><img src="images/omhoog.jpg" alt="pijltje om omhoog te gaan"></a>
 			<p>back to top</p>
 		</section>
 	</footer>

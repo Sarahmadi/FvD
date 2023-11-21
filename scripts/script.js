@@ -8,7 +8,7 @@ const knopOpen = document.querySelector(
   "header nav:first-of-type img:first-of-type"
 );
 const knopDicht = document.querySelector(
-  "header nav:last-of-type section:last-of-type img"
+  "header nav:last-of-type section:last-of-type button"
 );
 
 function openMenu() {
@@ -57,17 +57,21 @@ addChristmasImageToImages();
 const changeThemeButton = document.querySelector("main button:first-of-type");
 const root = document.documentElement;
 
-changeThemeButton.addEventListener("click", function () {
-  root.classList.toggle("alt-theme");
-
-  const christmasImages = document.querySelectorAll(".christmas-image");
-  christmasImages.forEach((christmasImage) => {
-    /* als de alt-theme actief is, zie je de kerst img, anders niet */
-    christmasImage.style.display = root.classList.contains("alt-theme")
-      ? "block"
-      : "none";
+if(changeThemeButton) {
+  changeThemeButton.addEventListener("click", function () {
+    root.classList.toggle("alt-theme");
+  
+    const christmasImages = document.querySelectorAll(".christmas-image");
+    christmasImages.forEach((christmasImage) => {
+      /* als de alt-theme actief is, zie je de kerst img, anders niet */
+      christmasImage.style.display = root.classList.contains("alt-theme")
+        ? "block"
+        : "none";
+    });
   });
-});
+}
+
+
 
 /* dark mode switch */
 /* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
@@ -76,18 +80,24 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
-/* micro interactie toevoegen aan winkelmandje */
-function changeImage() {
-  var imgClickAndChange = document.getElementById("imgClickAndChange");
-  var imgClickAndChange2 = document.getElementById("imgClickAndChange2");
 
-  if (imgClickAndChange.src.endsWith("toevoegen.jpg")) {
-    imgClickAndChange.src = "images/toevoegen2.jpg";
-    imgClickAndChange2.src = "images/winkelmandje2.png";
+var imgClickAndChangeButton = document.getElementById("imgClickAndChange");
+var imgClickAndChangeCart = document.getElementById("imgClickAndChange2");
 
-  /* timer van 0.5 seconden */
-    setTimeout(function () {
-      imgClickAndChange.src = "images/toevoegen.jpg";
-    }, 500);
+
+if(imgClickAndChangeButton) {
+  imgClickAndChangeButton.onclick = changeImage;
+
+  /* micro interactie toevoegen aan winkelmandje */
+  function changeImage() {
+    if (imgClickAndChangeButton.src.endsWith("toevoegen.jpg")) {
+      imgClickAndChangeButton.src = "images/toevoegen2.jpg";
+      imgClickAndChangeCart.src = "images/winkelmandje2.png";
+
+    /* timer van 0.5 seconden */
+      setTimeout(function () {
+        imgClickAndChangeButton.src = "images/toevoegen.jpg";
+      }, 500);
+    }
   }
 }

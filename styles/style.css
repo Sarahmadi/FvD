@@ -74,8 +74,15 @@
  }
  
  main section div img:first-child {
-	 width: 100%;
 	 padding-bottom: 0.8em;
+ }
+
+ main ul {
+	list-style: none;
+ }
+
+ main ul img {
+	 width: 100%;
  }
  
  /* instagram link */
@@ -302,4 +309,10 @@ footer > p:nth-of-type(3) {
 	font-family: 'hind', sans-serif;
 	font-size: 0.7em;
 	padding-bottom: 4em;
+ }
+
+ ul > main:first-of-type {
+	 display: block;
+	 margin-left: auto;
+	 margin-right: auto;
  }

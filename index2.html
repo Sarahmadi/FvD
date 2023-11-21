@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="author" content="Sarah Ahmadi">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/style3.css" rel="stylesheet">
     <link href="styles/style2.css" rel="stylesheet">
 
-    <title>ByFloor</title>
+    <title>ByFloor Kettingen</title>
 
-    <link href="styles/style3.css" rel="stylesheet">
     <link rel="icon" type="image/svg+xml" href="images/logo.jpg">
 </head>
 
@@ -17,10 +17,18 @@
     <header>
         <nav>
             <section>
-                <img src="images/menu.png" alt="icoontje van een hamburger menu">
-                <img src="images/zoeken.png" alt="icoontje van een vergrootglas">
-                <img src="images/winkelmandje.png" alt="icoontje van een winkelmandje" id="imgClickAndChange2">
-                <img src="images/account.png" alt="icoontje van jouw account">
+                <button aria-label="toggle menu">
+                    <img src="images/menu.png" alt="icoontje van een hamburger menu">
+                </button>
+                <button aria-label="zoeken">
+                    <img src="images/zoeken.png" alt="icoontje van een vergrootglas">
+                </button>
+                <button>
+                    <img src="images/winkelmandje.png" alt="icoontje van een winkelmandje" id="imgClickAndChange2">
+                </button>
+                <button>
+                    <img src="images/account.png" alt="icoontje van jouw account">
+                </button>
             </section>
         </nav>
         <nav>
@@ -35,12 +43,10 @@
             </section>
             <section>
                 <button>
-                    <img src="images/kruisje.png" alt="afbeelding van een kruisje">
+                    <img src="images/kruisje.png" alt="afbeelding van een kruisje"> sluiten
                 </button>
-                <p>Sluiten</p>
             </section>
         </nav>
-        <hr>
         <section>
             <img src="images/logo.jpg" alt="afbeelding van het byfloor logo">
         </section>
@@ -65,75 +71,95 @@
                 <img src="images/kettingpaars.jpg" alt="afbeelding van paarse ketting">
                 <p>Lange Ketting Paars <br> Kralen Goud</p>
                 <p>€ 29,95</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje" id="imgClickAndChange" onclick="changeImage()"/>
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje" id="imgClickAndChange" />
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/kettingklaver.jpg" alt="afbeelding van een klaver ketting">
                 <p>Lange Ketting Klaver <br> Goud Beige</p>
                 <p>€ 29,95</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/kettingzwart.jpg" alt="afbeelding van een zwarte ketting">
                 <p>Lange Ketting Kralen <br> Goud Groen</p>
                 <p>€ 29,95</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/kettingschelp.jpg" alt="afbeelding van schelpen ketting">
                 <p>Ketting 2 Laag Schelp <br> Beige</p>
                 <p>€ 24,95</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/olie.jpeg" alt="afbeelding van een metallic ketting 20% korting">
                 <p>Ketting Metalic Olie</p>
                 <p>€ 17,50</p>
                 <p>€ 14,00</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/zilver.png" alt="afbeelding van zilveren ketting 50% korting">
                 <p>Ketting Pandant Amour </p>
                 <p>€ 19,95</p>
                 <p>€ 9,98</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/maan.png" alt="afbeelding van maantjes ketting 50% korting">
                 <p>Ketting Moon Star</p>
                 <p>€ 29,95</p>
                 <p>€ 14,98</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/liefde.jpeg" alt="afbeelding van i love you ketting 50% korting">
                 <p>Ketting I Love You / Zilver</p>
                 <p>€ 9,95</p>
                 <p>€ 4,98</p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje"></button>
             </article>
             <article>
                 <img src="images/liefde.jpeg" alt="afbeelding van i love you ketting 50% korting">
                 <p>Ketting I Love You / Zilver</p>
                 <p><span class="origineel">€ 9,95 </span> <span class="korting">€ 4,98</span></p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
             </article>
             <article>
                 <img src="images/liefde.jpeg" alt="afbeelding van i love you ketting 50% korting">
                 <p>Ketting I Love You / Zilver</p>
                 <p><span class="origineel">€ 9,95 </span> <span class="korting">€ 4,98</span></p>
-                <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
-                <img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
+                <button aria-label="item toevoegen aan je winkelmandje">
+                    <img src="images/toevoegen.jpg" alt="item toevoegen aan je winkelmandje">
+                </button>
+                <button><img src="images/heart.png" alt="item toevoegen aan je verlanglijstje">
             </article>
         </section>
 
@@ -150,7 +176,7 @@
                 hanger. Alles kan en mag bij elkaar gecombineerd worden.</p>
         </section>
         <section>
-            <h3>Bedelketting</h3>
+            <h2>Bedelketting</h2>
             <p>Wat nu helemaal trendy is, is de bedelketting. Er zijn veel
                 verschillende bedeltjes. Denk aan een munt, een dieren
                 bedel zoals een luipaard of een hartje met tekst. We hebben
@@ -162,7 +188,7 @@
                 we hebben het wel bij ByFLOOR.nl.</p>
         </section>
         <section>
-            <h3>Kettingen als verjaardagscadeau.</h3>
+            <h2>Kettingen als verjaardagscadeau.</h2>
             <p>Wil je iemand blij maken met een leuk en persoonlijk cadeau
                 dan vindt je bij ons vast wel iets naar je zin. Mede omdat je
                 eindeloos kunt kiezen uit onze uitgebreide sieraden
@@ -172,7 +198,7 @@
                 je inpakken.</p>
         </section>
         <section>
-            <h3>Ketting online kopen.</h3>
+            <h2>Ketting online kopen.</h2>
             <p>Als je hulp nodig hebt om een ketting online te kopen dan
                 helpen wij je graag. Je kunt ons van dinsdag t/m zaterdag
                 bellen op nummer 076-5640073 of een chat starten via de
@@ -184,27 +210,32 @@
     </main>
 
     <footer>
+        <!-- <section></section> laat maar -->
         <section>
+            <h2 class="visually-hidden">klantenservice</h2>
             <details>
                 <summary>klantenservice</summary>
                 <ul>
-                    <li>Algemene Voorwaarden</li>
-                    <li>Veelgestelde Vragen</li>
-                    <li>Retour Aanmelden</li>
+                    <!-- in de li een a -->
+                    <li><a href="#">Algemene Voorwaarden</a></li>
+                    <li><a href="#">Veelgestelde Vragen</a></li>
+                    <li><a href="#">Retour Aanmelden</a></li>
                 </ul>
             </details>
             <details>
+                <h2 class="visually-hidden">Over ByFloor</h2>
                 <summary>by floor</summary>
                 <ul>
-                    <li>Over ons</li>
-                    <li>Privacy & Cookies</li>
-                    <li>Contact</li>
-                    <li>Dameskleding Breda</li>
-                    <li>Sieraden winkel Breda</li>
-                    <li>Nagelstyliste Breda</li>
+                    <li><a href="#">Over ons</a></li>
+                    <li><a href="#">Privacy & Cookies</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Dameskleding Breda</a></li>
+                    <li><a href="#">Sieraden winkel Breda</a></li>
+                    <li><a href="#">Nagelstyliste Breda</a></li>
                 </ul>
             </details>
             <details>
+                <h2 class="visually-hidden">Contactgegevens</h2>
                 <summary>contactgegevens</summary>
                 <ul>
                     <li>By Floor</li>
@@ -216,7 +247,6 @@
                     <li>KvK nr: 20125746</li>
                     <li>BTW nr: NL818754734B01</li>
                 </ul>
-
                 <p>Gevonden! De geheime kerst winactie!</p>
                 <p>Wat een toeval dat jij hier terecht bent gekomen...<br>
                     Want ByFloor houd een kerst winactie, waarbij wij 1 ByFloor kadobon ter waarde van 200 euro weg
@@ -246,6 +276,7 @@
 
             </details>
             <details>
+                <h2 class="visually-hidden">Aanmelden nieuwsbrief</h2>
                 <summary>meld je aan voor onze nieuwsbrief</summary>
                 <p>Schrijf je in voor onze nieuwsbrief en wees altijd als eerste op de hoogte van de
                     laatste kortingen, trends, (fashion) tips en nog heel veel meer! We sturen je
@@ -257,20 +288,26 @@
                 <button>Aanmelden</button>
             </details>
         </section>
+
         <section>
-            <img src="images/facebook.png" alt="facebook icoontje">
-            <img src="images/instagram.png" alt="instagram icoontje">
-            <img src="images/pinterest.png" alt="pinterest icoontje">
+            <a href="https://www.facebook.com/?locale=nl_NL"><img src="images/facebook.png" alt="facebook icoontje"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram icoontje"></a>
+            <a href="https://nl.pinterest.com/"><img src="images/pinterest.png" alt="pinterest icoontje"></a>
+        </section>
+
+        <section>
+            <!-- <img src="images/c.png" alt="icoontje van een c"> -->
+            <p>© Floorkidzstore 2019. Alle rechten voorbehouden</p>
+        </section>
+
+        <section>
+            <h2 class="visually-hidden">betaalmogelijkheden</h2>
+            <img src="images/betalen.jpg"
+                alt="Visa, PayPal, MasterCard, AfterPay, Mister Cash, Cash On Pickup, IDeal, Maestro">
         </section>
         <section>
-            <img src="images/c.png" alt="icoontje van een c">
-            <p>Floorkidzstore 2019. Alle rechten voorbehouden</p>
-        </section>
-        <section>
-            <img src="images/betalen.jpg" alt="afbeelding van de betaalmogelijkheden">
-        </section>
-        <section>
-            <img src="images/omhoog.jpg" alt="icoontje van een pijl omhoog">
+            <!-- a-tje -->
+            <a href="http://127.0.0.1:5500/index.html"><img src="images/omhoog.jpg" alt="pijltje om omhoog te gaan"></a>
             <p>back to top</p>
         </section>
     </footer>
