@@ -72,7 +72,6 @@ if(changeThemeButton) {
 }
 
 
-
 /* dark mode switch */
 /* bron: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_toggle_dark_mode */
 function myFunction() {
@@ -80,10 +79,8 @@ function myFunction() {
   element.classList.toggle("dark-mode");
 }
 
-
 var imgClickAndChangeButton = document.getElementById("imgClickAndChange");
 var imgClickAndChangeCart = document.getElementById("imgClickAndChange2");
-
 
 if(imgClickAndChangeButton) {
   imgClickAndChangeButton.onclick = changeImage;

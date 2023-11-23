@@ -333,7 +333,7 @@ article:last-of-type::before  {
   margin-left: 0.8em;
 }
 
-main > section article button img[alt="item toevoegen aan je verlanglijstje"] {
+main > section article button:last-of-type img:last-of-type {
   width: 10%;
 }
 
